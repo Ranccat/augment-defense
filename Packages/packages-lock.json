@@ -183,6 +183,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.render-pipelines.core": {
       "version": "17.5.0",
       "depth": 1,
@@ -281,6 +288,15 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "im.toss.apps-in-toss-unity-sdk": {
+      "version": "https://github.com/toss/apps-in-toss-unity-sdk.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "hash": "ba27de26c63790adc71fc642c4ef6483ef2e6429"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
